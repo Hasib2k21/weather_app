@@ -5,7 +5,7 @@ import 'package:geolocator/geolocator.dart';
 import 'package:flutter/material.dart';
 
 class WeatherServices {
-  final String apiKey = 'c88a7679250eb5ca4c9c26beac523dd9';
+  final String apiKey = "";
 
   Future<Map<String, dynamic>> getWeather(String cityName) async {
     final response = await http.get(Uri.parse(
